@@ -138,10 +138,14 @@ a:hover {
   margin: 0;
 }
 .sidebar {
-  width: 18%;
-  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
   background: #111;
   float: left;
+  padding-bottom: 10%;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 .sidebar a {
   display: block;
@@ -152,10 +156,15 @@ a:hover {
 .sidebar a:hover {
   color: #f1f1f1;
 }
-.main-content {
-  width: 82%;
-  height: 400px;
-  margin-left: 18%;
+#sidebar-menu {
+  font-size: 0px;
+  cursor: pointer;
+  border: 0;
+  padding: 0px 5px;
+}
+#resume-main {
+  padding: 10px 5px 10px 10px;
+  margin-left: 250px;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -190,5 +199,17 @@ a:hover {
   }
   #resume h2 {
     padding: 4% 0;
+  }
+  #sidebar-menu {
+    font-size: 30px;
+    cursor: pointer;
+    border: #111 solid 2px;
+    padding: 0px 5px;
+  }
+  #mySidenav {
+    width: 0;
+  }
+  #resume-main {
+    margin-left: 0px;
   }
 }
