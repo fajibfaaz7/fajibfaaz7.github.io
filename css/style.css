@@ -223,6 +223,6 @@ a:hover {
     /* position: relative; */
   }
   #resume-main {
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 }
