@@ -109,6 +109,17 @@ a:hover {
   text-align: center;
   padding: 2% 0;
 }
+#contacts {
+  padding: 5% 2% 2% 2%;
+}
+#contacts h2 {
+  text-align: center;
+}
+#contacts p {
+  text-align: center;
+  font-size: 20px;
+  padding: 10 0 30 0;
+}
 .column {
   float: left;
   width: 33.3%;
@@ -138,6 +149,7 @@ a:hover {
   margin: 0;
 }
 .sidebar {
+  position: sticky;
   width: 250px;
   top: 0;
   left: 0;
@@ -164,7 +176,7 @@ a:hover {
 }
 #resume-main {
   padding: 10px 5px 10px 10px;
-  margin-left: 250px;
+  margin-left: 300px;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -208,6 +220,7 @@ a:hover {
   }
   #mySidenav {
     width: 0;
+    /* position: relative; */
   }
   #resume-main {
     margin-left: 0px;
