@@ -244,9 +244,10 @@ a:hover {
     padding: 4% 0;
   }
 
-  /* #resume h2 {
-    padding: 4% 0;
-  } */
+  #resume-main {
+    padding: 10px 5px 10px 10px;
+    margin-left: 50px;
+  }
   #sidebar-menu {
     font-size: 30px;
     cursor: pointer;
