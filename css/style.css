@@ -185,10 +185,10 @@ a:hover {
   padding: 0px 5px;
 }
 .me-img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: relative;
-  margin: 0px 0 20 20;
+  margin: 10px 0 10 45;
   border: #1e272e solid 1px;
   border-radius: 20px;
 }
