@@ -6,6 +6,9 @@ body {
 .bg {
   background-color: rgba(17, 17, 17, 0);
 }
+.close {
+  visibility: hidden;
+}
 .column {
   float: left;
   width: 33.3%;
@@ -77,8 +80,7 @@ a:hover {
   background-size: cover;
 }
 .portfolio-parallax {
-  /* background-image: url("https://futureoflife.org/wp-content/uploads/2017/08/portfolio-AI-safety-research-1030x562.jpg?x60419"); */
-  background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/dark-gears-background-8.jpg");
+  background-image: url("https://futureoflife.org/wp-content/uploads/2017/08/portfolio-AI-safety-research-1030x562.jpg?x60419");
   height: 17%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -89,7 +91,7 @@ a:hover {
   -o-background-size: cover;
 }
 .resume-parallax {
-  background-image: url("https://habrastorage.org/webt/pc/yj/0u/pcyj0uly_sdna63fl0kcwhb2fk4.png");
+  background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/dark-gears-background-8.jpg");
   height: 17%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -193,15 +195,27 @@ a:hover {
   border: 0;
   padding: 0px 5px;
 }
+.me-img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0px 0 20 20;
+  border: #1e272e solid 1px;
+  border-radius: 20px;
+}
 #resume-main {
   padding: 10px 5px 10px 10px;
   margin-left: 300px;
 }
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+  .close {
+    visibility: visible;
   }
   .bg {
     background-color: rgba(17, 17, 17, 1);
