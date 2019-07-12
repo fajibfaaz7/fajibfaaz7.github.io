@@ -209,10 +209,10 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .me-img {
+  /* .me-img {
     width: 100px;
     height: 100px;
-  }
+  } */
   .column {
     width: 100%;
     display: block;
