@@ -153,17 +153,6 @@ a:hover {
 .portfolio-content a:hover {
   color: #818181;
 }
-#contacts {
-  padding: 5% 2% 2% 2%;
-}
-#contacts h2 {
-  text-align: center;
-}
-#contacts p {
-  text-align: center;
-  font-size: 20px;
-  padding: 10 0 30 0;
-}
 
 .resume-content {
   width: 100%;
@@ -207,6 +196,17 @@ a:hover {
   padding: 10px 5px 10px 10px;
   margin-left: 300px;
 }
+#contacts {
+  padding: 5% 2% 2% 2%;
+}
+#contacts h2 {
+  text-align: center;
+}
+#contacts p {
+  text-align: center;
+  font-size: 20px;
+  padding: 10 0 30 0;
+}
 
 @media screen and (max-width: 600px) {
   /* .me-img {
@@ -243,9 +243,7 @@ a:hover {
   #portfolio h2 {
     padding: 4% 0;
   }
-  #resume {
-    margin-right: 0%;
-  }
+
   #resume h2 {
     padding: 4% 0;
   }
@@ -258,8 +256,5 @@ a:hover {
   #mySidenav {
     width: 0;
     /* position: relative; */
-  }
-  #resume-main {
-    margin-left: 0px !important;
   }
 }
