@@ -244,14 +244,24 @@ a:hover {
 }
 #resume-interests p {
   color: #818181;
+  padding: 10px 15 10 10;
 }
 #contacts {
-  padding: 5% 2% 2% 2%;
+  background-image: url("https://www.govloop.com/wp-content/uploads/2016/05/iStock_000022833138_Full-e1471371968945.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding: 2% 2% 2% 2%;
 }
 #contacts h2 {
   text-align: center;
+  color: white;
 }
 #contacts p {
+  color: white;
   text-align: center;
   font-size: 20px;
   padding: 10 0 30 0;
