@@ -190,18 +190,60 @@ a:hover {
   position: relative;
   margin: 0px 0 10 20;
   border: #1e272e solid 1px;
-  border-radius: 20px;
+  border-radius: 100px;
 }
 #resume-main {
   padding: 10px 5px 10px 10px;
   margin-left: 300px;
 }
 #resume-about {
-  margin-top: 80px;
+  padding: 110px 0 30 0;
 }
 #resume-about h1 {
   font-size: 55px;
   font-weight: bolder;
+}
+#resume-experience {
+  padding: 110px 0 30 0;
+}
+#resume-experience h2 {
+  font-weight: bolder;
+}
+#resume-experience h5 {
+  font-weight: bolder;
+}
+#resume-experience p {
+  color: #818181;
+}
+#resume-education {
+  padding: 110px 0 30 0;
+}
+#resume-education h2 {
+  font-weight: bolder;
+}
+#resume-education h5 {
+  font-weight: bolder;
+}
+#resume-education p {
+  color: #818181;
+}
+#resume-skill {
+  padding: 110px 0 30 0;
+}
+#resume-skill h2 {
+  font-weight: bolder;
+}
+#resume-skill h5 {
+  font-weight: bolder;
+}
+#resume-interests {
+  padding: 110px 0 30 0;
+}
+#resume-interests h2 {
+  font-weight: bolder;
+}
+#resume-interests p {
+  color: #818181;
 }
 #contacts {
   padding: 5% 2% 2% 2%;
