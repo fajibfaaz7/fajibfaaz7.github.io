@@ -2,16 +2,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/d4561ffb8d.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -153,12 +160,14 @@
     <div id="resume" class="resume-content">
       <div id="mySidenav" class="sidebar">
         <a href="javascript:void(0)" class="close" onclick="closeNav()">x</a>
-        <img class="me-img" src="images/me.JPG.png" />
+        <img class="me-img" src="images/me.JPG" />
         <a href="#resume-about">ABOUT</a>
         <a href="#resume-experience">EXPERIENCE</a>
         <a href="#resume-education">EDUCATION</a>
         <a href="#resume-skill">SKILLS</a>
-        <a href="#">DOWNLOAD PDF</a>
+        <a href="documents/Fajib.pdf" download="documents/Fajib.pdf"
+          >DOWNLOAD PDF</a
+        >
       </div>
 
       <div style="height:50px; padding: 0 2px;">
@@ -168,13 +177,37 @@
         <div id="resume-about">
           <h1>FAJIB</h1>
           <p>Game Programmer, PUPAY, Thrissur</p>
-          <p>(+91)7510773717 &nbsp;<a href="#"> faazfajib7@gmail.com</a></p>
+          <p>
+            (+91)7510773717 &nbsp;<a href="mailto:faazfajib7@gmail.com">
+              faazfajib7@gmail.com</a
+            >
+          </p>
           <p>
             I am B.Tech Graduate from University of Calicut, experienced in ASP
             .NET MVC, Unity3D, C# and other technologies.(Looking for
             opportunities)
           </p>
-          <p>Fb, phone, linkedin, github, steam</p>
+          <br />
+          <div class="resume-social">
+            <a href="https://www.facebook.com/fajibfaaz" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/im_faazi/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/fajibfaaz7" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/fajib-aboobacker-254b86118/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://steamcommunity.com/id/imfaazi7" target="_blank"
+              ><i class="fab fa-steam-symbol"></i
+            ></a>
+          </div>
+          <br />
         </div>
         <hr />
         <div id="resume-experience">
@@ -233,20 +266,33 @@
           <h2>SKILLS</h2>
           <br />
           <h5>PROGRAMMING LANGUAGES AND TOOLS</h5>
-          <p>C#</p>
-          <p>JS</p>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>.NET</p>
+          <ul>
+            <li class="list-inline-item">
+              <i class="devicon-csharp-line"></i>
+              <i class="devicon-html5-plain-wordmark"></i>
+              <i class="devicon-css3-plain-wordmark"></i>
+              <i class="devicon-dot-net-plain-wordmark"></i>
+              <i class="devicon-javascript-plain"></i>
+            </li>
+          </ul>
+
           <br />
           <h5>GAME ENGINES & IDE'S</h5>
-          <p>UNITY</p>
-          <p>VISUAL STUDIO</p>
-          <p>ANDROID STUDIO</p>
+          <ul>
+            <li class="list-inline-item">
+              <i class="devicon-visualstudio-plain"></i>
+              <i class="devicon-android-plain"></i>
+            </li>
+          </ul>
+
           <br />
           <h5>DESIGN & CREATIVITY</h5>
-          <p>PHOTOSHOP</p>
-          <p>ILLUSTRATOR</p>
+          <ul>
+            <li class="list-inline-item">
+              <i class="devicon-photoshop-plain"></i>
+              <i class="devicon-illustrator-plain"></i>
+            </li>
+          </ul>
         </div>
         <hr />
         <div id="resume-interests">
@@ -269,7 +315,41 @@
         CONTACTS
       </h2>
       <p>I hope you got interested in my works!</p>
-      <div class="contacts-content"></div>
+      <div class="contacts-content">
+        <div class="pro"></div>
+        <div class="contacts-social">
+          <a href="mailto:faazfajib7@gmail.com"
+            ><i class="far fa-envelope-open"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=917510773717"
+            target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.facebook.com/fajibfaaz" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/im_faazi/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/fajibfaaz7" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/fajib-aboobacker-254b86118/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://steamcommunity.com/id/imfaazi7" target="_blank"
+            ><i class="fab fa-steam-symbol"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Thank you for visiting my portfolio. I hope you have a great day!
+      </p>
     </div>
   </body>
 </html>

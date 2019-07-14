@@ -203,6 +203,32 @@ a:hover {
   font-size: 55px;
   font-weight: bolder;
 }
+.resume-social {
+  position: absolute;
+}
+.resume-social a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 24px;
+}
+.resume-social a:hover {
+  background: #111;
+}
+.resume-social a i {
+  transition: 0.4s all;
+}
+.resume-social a:hover > i {
+  transform: scale(1.6) rotate(25deg);
+}
+
 #resume-experience {
   padding: 110px 0 30 0;
 }
@@ -236,6 +262,31 @@ a:hover {
 #resume-skill h5 {
   font-weight: bolder;
 }
+#resume-skill ul {
+  padding: 2% 0 0 0;
+}
+#resume-skill i {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 30px;
+}
+#resume-skill i:hover {
+  background: #111;
+}
+#resume-skill i {
+  transition: 0.4s all;
+}
+#resume-skill i:hover {
+  transform: scale(1.3) rotate(25deg);
+}
 #resume-interests {
   padding: 110px 0 30 0;
 }
@@ -257,6 +308,7 @@ a:hover {
   padding: 2% 2% 2% 2%;
 }
 #contacts h2 {
+  padding: 5% 0 0 0%;
   text-align: center;
   color: white;
 }
@@ -266,12 +318,54 @@ a:hover {
   font-size: 20px;
   padding: 10 0 30 0;
 }
-
+.contact-last p {
+  color: #818181;
+}
+.contacts-social {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -0%);
+  padding: 1% 0;
+}
+.contacts-social a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 24px;
+}
+.contacts-social a:hover {
+  background: #111;
+}
+.contacts-social a i {
+  transition: 0.4s all;
+}
+.contacts-social a:hover > i {
+  transform: scale(1.6) rotate(25deg);
+}
+.footer {
+  background: #1e272e;
+  height: 20%;
+}
+.footer p {
+  position: relative;
+  top: 50%;
+  color: #818181;
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
-  /* .me-img {
-    width: 100px;
-    height: 100px;
-  } */
+  .contacts-social {
+    position: relative;
+    left: 0%;
+    transform: translate(0%, 0%);
+    margin: 1% 5%;
+  }
   .column {
     width: 100%;
     display: block;
