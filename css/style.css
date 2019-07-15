@@ -35,6 +35,7 @@ body {
   padding-bottom: 140px;
 }
 .row p {
+  padding: 4% 0 0 0;
   color: #818181;
 }
 
@@ -366,6 +367,9 @@ a:hover {
   font-size: 12px;
 }
 @media screen and (max-width: 600px) {
+  .card1 {
+    width: 200px;
+  }
   .contacts-social {
     position: relative;
     left: 0%;
@@ -426,8 +430,9 @@ a:hover {
   border: #818181 1px;
   border-radius: 15px;
   cursor: pointer;
-  width: 330px;
+  width: 300px;
   height: 300px;
+
   box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.3);
 }
 .front,
