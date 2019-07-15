@@ -464,13 +464,17 @@ a:hover {
 }
 .back {
   margin: 2% 0 0 0;
-  background: #111;
   color: #818181;
+
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content {
   margin: 0;
   padding: 15px;
+  background-size: 200%;
+  cursor: pointer;
+  background-image: linear-gradient(to left, #fda7df, #9980fa, #fda7df);
+  transition: 0.6s;
   text-align: center;
 }
 .card1:hover > .front {
@@ -478,4 +482,8 @@ a:hover {
 }
 .card1:hover > .back {
   transform: perspective(600px) rotateY(0deg);
+}
+
+.back-content:hover {
+  background-position: right;
 }
