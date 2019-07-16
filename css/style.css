@@ -31,11 +31,17 @@ body {
   text-align: center;
   transition: 0.6s;
 }
-
+.card a {
+  display: none;
+}
 .card:hover {
+  padding: 25;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
-
+.card:hover a {
+  transition: 1s;
+  display: inline;
+}
 .row {
   margin: 0px 0px;
   padding-left: 10%;
