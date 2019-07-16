@@ -23,11 +23,12 @@ function scrollFunction2() {
   ) {
     document.getElementById("top-btn").style.width = "60px";
     document.getElementById("top-btn").style.height = "60px";
-    // document.getElementById("top-btn").style.transition = "0.6s";
+    document.getElementById("top-btn").style.opacity = "1";
     document.getElementById("top-btn").style.display = "block";
   } else {
     document.getElementById("top-btn").style.width = "0px";
     document.getElementById("top-btn").style.height = "0px";
+    document.getElementById("top-btn").style.opacity = "0";
     document.getElementById("top-btn").style.display = "none";
   }
 }
