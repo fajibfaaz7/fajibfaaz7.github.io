@@ -416,7 +416,7 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
   #top-btn:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     padding: 30px;
   }
   #cover-text {
