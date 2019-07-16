@@ -33,6 +33,7 @@ body {
   /* font-family: "Alegreya", serif; */
   font-family: "B612", sans-serif;
   -webkit-overflow-scrolling: touch;
+  /* cursor: url('some-cursor.ico'), default; */
 }
 .bg {
   background-color: rgba(17, 17, 17, 0);
