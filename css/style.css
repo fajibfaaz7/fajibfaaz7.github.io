@@ -59,14 +59,16 @@ body {
   transition: 0.4s;
 }
 .card a {
-  display: none;
+  /* display: none; */
+  visibility: hidden;
 }
 .card:hover {
-  padding: 30px;
+  padding: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 .card:hover a {
-  display: block;
+  /* display: block; */
+  visibility: visible;
 }
 .row {
   margin: 0px 0px;
