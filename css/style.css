@@ -60,6 +60,7 @@ body {
 }
 .card a {
   /* display: none; */
+
   visibility: hidden;
 }
 .card:hover {
@@ -69,6 +70,7 @@ body {
 .card:hover a {
   /* display: block; */
   visibility: visible;
+  color: red;
 }
 .row {
   margin: 0px 0px;
