@@ -190,8 +190,8 @@ a:hover {
 }
 
 .portfolio-img {
-  width: 100px;
-  height: 100px;
+  width: 30%;
+  height: auto;
   position: relative;
   align-self: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
