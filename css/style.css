@@ -490,6 +490,10 @@ a:hover {
     margin: auto;
     padding: 30px 0 35px 0;
   } */
+  .website-img {
+    width: 150px;
+    height: 100px;
+  }
   #resume-main {
     padding: 10px 5px 10px 10px;
     margin-left: 30px;
