@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>One Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <header>
+      <div id="home" class="header-full">
+        <div class="cover">
+          <h2 class="cover-text">THE BEST RESTAURANT</h2>
+          <h5 class="cover-text">FOR THE PROFESSIONAL ATHELETES</h5>
+        </div>
+
+        <nav
+          id="nav-id"
+          style="padding-top: 0;"
+          class="navbar navbar-expand-sm fixed-top navbar-light"
+        >
+          <div id="brand-nav" class="brand-custom pl-1 pr-1 ml-5">
+            <a class="nav-link one-cus brand" href="#">ONE</a>
+            <a class="nav-link res-custom brand" href="#">Restaurant</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#nav-one"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="nav-one" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="top nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="top nav-link" href="#main-data">MainMenu</a>
+              </li>
+              <li class="nav-item">
+                <a class="top nav-link" href="#about-us">About Us</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="top nav-link" href="">Make An Order</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="top nav-link" href="#map">Contact Us</a>
+              </li> -->
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="main-data">
+        <br />
+        <br />
+        <div style="padding: 10px 0 10 0" class="container mt-5 mb-5">
+          <div class="row justify-content-around">
+            <div class="col-md-6">
+              <div class="row mt-2 justify-content-around">
+                <div class="box box1 col-sm-12 col-md-4 ml-3 mr-3 mt-3 mb-3">
+                  <h6>MAKE A RESERVATION</h6>
+                </div>
+                <div class="box box2 col-sm-12 col-md-4 ml-3 mr-3 mt-3 mb-3">
+                  <h6>FOOD & DRINK MENU</h6>
+                </div>
+              </div>
+              <div class="row justify-content-around">
+                <div class="box box3 col-sm-12 col-md-4 ml-3 mr-3 mt-3 mb-3">
+                  <h6>SPECIAL OFFER MENU</h6>
+                </div>
+                <div class="box box4 col-sm-12 col-md-4 ml-3 mr-3 mt-3 mb-3">
+                  <h6>TAKE AWAY MENU</h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="box-big big-box1 col-sm-12 col-md-5 mt-5 ml-3 mr-3 mb-5"
+            >
+              <h2>TODAYS<br />SPECIAL</h2>
+              <span>$99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="pt-5"></div>
+        <div class="container-fluid about">
+          <div class="row pt-2 pb-2 align-items-center">
+            <img
+              class="col-md-1"
+              src="images/pexels-photo-220453.jpeg"
+              alt="dp"
+            />
+            <article class="col-md-11 mt-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+              similique dolores praesentium delectus doloremque vero vitae id
+              rem iste beatae unde, rerum mollitia veritatis voluptas voluptatum
+              quam nisi obcaecati accusamus?
+              <p style="font-style: italic;">Fajib FaAZ</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016664.2832571645!2d73.8833210147845!3d10.53812914733618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala!5e0!3m2!1sen!2sin!4v1564996819273!5m2!1sen!2sin"
+          width="100%"
+          height="400"
+          frameborder="0"
+          style="border:0; margin: 0; padding: 0;"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <div class="mt-0 pt-2">Designed by Fajib</div>
+    </footer>
+    <!-- <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(51.508742, -0.12085),
+          zoom: 5
+        };
+        var map = new google.maps.Map(
+          document.getElementById("googleMap"),
+          mapProp
+        );
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scroll.js"></script>
+  </body>
+</html>
