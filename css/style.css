@@ -199,6 +199,11 @@ a:hover {
   margin: auto;
   padding: 30px 0 35px 0;
 }
+.website2-img {
+  width: 25%;
+  height: 25%;
+  margin: auto;
+}
 .portfolio-img {
   width: 30%;
   height: 30%;
