@@ -10,7 +10,7 @@ function scrollFunction() {
     document.getElementById("navanim").style.backgroundColor =
       "#ffffff";
     document.querySelector(".nav-brand").style.color = "#5f6368"
-    document.getElementById("cover-text").style.fontSize = "60px";
+    document.getElementById("cover-text").style.fontSize = "80px";
 
     Array.from(elements).forEach((element)=>{
       element.style.color = "#5f6368"
@@ -19,7 +19,7 @@ function scrollFunction() {
   } else {
     document.getElementById("navanim").style.padding = "40px 60px 20px 50px"; //top,right,bottom,left
     document.getElementById("navanim").style.backgroundColor = "rgba(0,0,0,0)";
-    document.getElementById("cover-text").style.fontSize = "40px";
+    document.getElementById("cover-text").style.fontSize = "60px";
     document.querySelector(".nav-brand").style.color = "#ffffff"
     Array.from(elements).forEach((element)=>{
       element.style.color = "#ffffff"
