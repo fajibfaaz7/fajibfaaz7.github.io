@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css?family=Alegreya&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- konpa-devicon-kit -->
     <link
       rel="stylesheet"
@@ -57,13 +58,14 @@
   <!-- this is active link control -->
   <body data-spy="scroll" data-target=".navbar">
     <!-- top button -->
-    <button onclick="topFunction()" id="top-btn"></button>
+    <button onclick="topFunction()" id="top-btn">
+    <img src="./images/up.png"/></button>
     <div id="home" class="main-parallax">
       <h1 id="cover-text">UI/UX Developer and Indie Game Developer</h1>
 
       <div>
         <nav id="navanim" class="navbar navbar-expand-lg  navbar-dark">
-          <a class="nav-brand" href="#home">FAJIB</a>
+          <a class="nav-brand" href="#home">Fajib</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -91,29 +93,25 @@
     </div>
 
     <div id="prologue">
-      <h2>PROLOGUE</h2>
+      <h2>Prologue</h2>
       <p>Welcome to my Portfolio Website</p>
     </div>
     <div class="prologue-content">
       <div class="row">
-        <div class="column">
+        <div class="card-deck">
           <div class="card">
             <img class="prologue-img" src="images/skill.png" />
-            <h5>Technical Skills</h5>
-            <p>
-              HTML, CSS, Javascript, Unity3D, C#, .Net, Photoshop, Illustrator,
-              VisualStudio, Bootstrap
-            </p>
+              <h5>Technical Skills</h5>
+              <p>
+                HTML, CSS, Javascript, ES6, Angular, Photoshop, Illustrator,
+                VisualStudio, Bootstrap,TypeScript
+              </p>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="prologue-img" src="images/education.png" />
-            <h5>Education</h5>
-            <p>Thejus Engineering College, Thrissur, University of Calicut</p>
+              <h5>Education</h5>
+              <p>Thejus Engineering College, Thrissur, University of Calicut</p>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="prologue-img" src="images/hobbies.png" />
             <h5>Hobbies</h5>
@@ -123,84 +121,57 @@
       </div>
     </div>
 
-    <div class="portfolio-parallax"></div>
+    <!-- <div class="portfolio-parallax"></div> -->
     <div id="portfolio">
       <h2>
-        PORTFOLIO
+        Portfolio
       </h2>
       <p>Professional and Personal Projects I was part of.</p>
-    </div>
+    
     <div class="portfolio-content">
       <div class="row">
-        <div class="column">
+        <div class="card-columns">
           <div class="card">
-            <img class="website2-img" src="images/ONE RESTAURANT.png" />
-            <h5>Restaurant</h5>
-            <p>Website, Html, Css, Js, Bootstrap 4</p>
-            <a
-              href="https://fajibfaaz7.github.io/documents/Sites/Site1/site1.html"
-              target="_blank"
-              >Open</a
-            >
-            <!-- <a
-              href="https://github.com/fajibfaaz7/fajibfaaz7.github.io/blob/master/documents/Sites/Site1/Restaurant-Design.png"
-              target="_blank"
-              >Design</a
-            > -->
+            <img class="website-img" src="https://mytechnopark.in/images/logo.png" />
+            <h5>MyTechnoparkApp</h5>
+            <p>Website, HTML5, CSS, ES6, Bootstrap 4, Photoshop, Sass</p>
+            <a class="button mb-1 mt-1" href="https://mytechnopark.in/" target="_blank">Open</a>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="website-img" src="images/wirehat.png" />
             <h5>Wirehat</h5>
-            <p>Website, Html, Css, Js, Bootstrap</p>
-            <a href="https://wire-hat.github.io/" target="_blank">Open</a>
+            <p>Website, HTML, CSS, JS, Bootstrap 4, Photoshop</p>
+            <a class="button mb-1 mt-1" href="https://wire-hat.github.io/" target="_blank">Open</a>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="portfolio-img" src="images/marsrider.png" />
             <h5>MarsRider</h5>
-            <p>Android Game, C#, Unity3D, Blender</p>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.fzgamestudios.marsrider"
-              target="_blank"
-              >Open</a
-            >
-            <a href="https://github.com/fajibfaaz7/MarsRider" target="_blank"
-              >Github</a
-            >
+            <p>Android Game, C#, Unity3D, Blender, Photoshop</p>
+              <a class="button mb-1 mt-1"
+                href="https://play.google.com/store/apps/details?id=com.fzgamestudios.marsrider"
+                target="_blank"
+              >Store</a>
+            <a class="button mb-1 mt-1" href="https://github.com/fajibfaaz7/MarsRider" target="_blank"
+            >Github</a>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="portfolio-img" src="images/puzzlegame.png" />
             <h5>KidsPuzzle</h5>
-            <p>Android Game, C#, Unity, Photoshop</p>
-            <!-- <a
-              href="games/kidspuzzle/apk/puzzle.apk"
-              download="games/kidspuzzle/apk/puzzle.apk"
-              >Apk Downlaod</a
-            > -->
-            <a href="https://github.com/fajibfaaz7/PuzzleGame" target="_blank"
-              >Github</a
-            >
+            <p>Android Game, C#, Unity3D, Photoshop</p>
+              <a class="button mb-1 mt-1" href="https://github.com/fajibfaaz7/PuzzleGame" target="_blank"
+                >Github</a>
           </div>
-        </div>
-        <div class="column">
           <div class="card">
             <img class="portfolio-img" src="images/tecoutz.png" />
             <h5>TecOutZ</h5>
-            <p>Java, Android Studio, Photoshop, Illustrator</p>
-            <a href="https://github.com/fajibfaaz7/TECOUTZ" target="_blank"
-              >Github</a
-            >
+            <p>Android App, Java, Android Studio, Photoshop, Illustrator</p>
+            <a class="button" href="https://github.com/fajibfaaz7/TECOUTZ" target="_blank"
+              >Github</a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="resume-parallax"></div>
+  </div>
     <div id="resume" class="resume-content">
       <div id="mySidenav" class="sidebar">
         <a href="javascript:void(0)" class="close" onclick="closeNav()">x</a>
@@ -219,16 +190,16 @@
       </div>
       <div id="resume-main">
         <div id="resume-about">
-          <h1>FAJIB</h1>
-          <p>Web Developer, PUPAY, Thrissur</p>
+          <h1>Fajib</h1>
+          <p>UI/UX Developer, Prayan Animation Studio, Trivandrum</p>
           <p>
             (+91)7510773717 &nbsp;<a href="mailto:faazfajib7@gmail.com">
               faazfajib7@gmail.com</a
             >
           </p>
           <p>
-            I am B.Tech Graduate from University of Calicut, experienced in Web
-            development, Unity3D, C# and other technologies.(Looking for
+            I am B.Tech Graduate from University of Calicut, experienced in UI/UX
+            development, Angular and other technologies.(Looking for
             opportunities)
           </p>
           <br />
@@ -236,7 +207,7 @@
             <a href="https://www.facebook.com/fajibfaaz" target="_blank"
               ><i class="fab fa-facebook-f"></i
             ></a>
-            <a href="https://www.instagram.com/im_faazi/" target="_blank"
+            <a href="https://www.instagram.com/fajibfaaz/" target="_blank"
               ><i class="fab fa-instagram"></i
             ></a>
             <a href="https://github.com/fajibfaaz7" target="_blank"
@@ -259,11 +230,22 @@
             EXPERIENCE
           </h2>
           <br />
-          <h5>UI/UX DEVELOPER (JAN 2019 - JULY 2019)</h5>
-          <p>PUPAY, THRISSUR</p>
+          <h5>UI/UX DEVELOPER (AUG 2019 - PRESENT)</h5>
+          <p>PRAYAN ANIMATION STUDIO, TRIVANDRUM</p>
           <ul>
             <li>
-              Building websites using HTML, CSS and Javascript (VSCode IDE)
+              Building websites using HTML, CSS, Sass, Javascript, Bootstrap 4, Angular, and TypeScript (VSCode IDE)
+            </li>
+            <li>
+              Used Git version control
+            </li>
+          </ul>
+          <br />
+          <h5>UI/UX DEVELOPER (JAN 2019 - AUG 2019)</h5>
+          <p>WIREHAT, THRISSUR</p>
+          <ul>
+            <li>
+              Building websites using HTML, CSS, Javascript, and Bootstrap 4 (VSCode IDE)
             </li>
             <li>
               Used Git version control on Source Tree
@@ -295,13 +277,23 @@
         <div id="resume-education">
           <h2>EDUCATION</h2>
           <br />
-          <h5>THEJUS ENGINEERING COLLEGE, THRISSUR</h5>
+          <h5>THEJUS ENGINEERING COLLEGE, VELLARAKKAD, THRISSUR (2014-2018)</h5>
           <p>
             BACHELOR OF TECHNOLOGY
           </p>
           <p>
             Specialized in Computer Science Engineering affiliated by Calicut
-            University
+            University 
+          </p>
+          <br />
+          <h5>GHSS, KADAVALLUR, THRISSUR (2012-2014)</h5>
+          <p>
+            HIGHER SECONDARY
+          </p>
+          <br />
+          <h5>SIRAJUL ULOOM ENGLISH HIGH SCHOOL, KALLUMPURAM, THRISSUR (2012)</h5>
+          <p>
+            HIGH SCHOOL
           </p>
         </div>
         <hr />
@@ -314,6 +306,10 @@
               <i class="devicon-html5-plain-wordmark"></i>
               <i class="devicon-css3-plain-wordmark"></i>
               <i class="devicon-javascript-plain"></i>
+              <i class="devicon-angularjs-plain"></i>
+              <i class="devicon-bootstrap-plain"></i>
+              <i class="devicon-typescript-plain"></i>
+              <i class="devicon-sass-original"></i>
               <i class="devicon-dot-net-plain-wordmark"></i>
               <i class="devicon-csharp-line"></i>
             </li>
@@ -347,9 +343,8 @@
             games, I play a lot of games (good or bad) for research purposes and
             also love to read about them and their analysis. I enjoy most of my
             time honing my creativity. I have inherent love with Music. I follow
-            a number of sci-fi and fantasy genre movies and television shows. I
-            am also an aspiring writer and I spend a large amount of my free
-            time exploring the latest technolgy advancements in game development
+            a number of sci-fi and fantasy genre movies and television shows. I spend a large amount of my free
+            time exploring the latest technolgy advancements in web development
             world.
           </p>
         </div>
@@ -376,7 +371,7 @@
           <a href="https://www.facebook.com/fajibfaaz" target="_blank"
             ><i class="fab fa-facebook-f"></i
           ></a>
-          <a href="https://www.instagram.com/im_faazi/" target="_blank"
+          <a href="https://www.instagram.com/fajibfaaz/" target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
           <a href="https://github.com/fajibfaaz7" target="_blank"
