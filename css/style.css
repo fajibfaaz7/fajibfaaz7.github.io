@@ -7,15 +7,16 @@ html {
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
 }
-.navbar-dark .navbar-nav .nav-link.active{
-  color: #000!important;
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #000 !important;
 }
 #top-btn {
   display: none;
-  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -33,11 +34,11 @@ html {
   cursor: pointer;
   transition: 0.6s;
 }
-#top-btn img{
+#top-btn img {
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* #top-btn:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
@@ -49,7 +50,7 @@ body {
   /* font-family: "Alegreya", serif; */
   /* font-family: "B612", sans-serif; */
   /* -webkit-overflow-scrolling: touch; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* cursor: url('some-cursor.ico'), default; */
 }
@@ -69,7 +70,8 @@ body {
   background: #fff;
   border-radius: 8px;
   border: 1px solid #eceff1;
-  box-shadow: 0 1px 1px 0 rgba(60,64,67,.3), 0 1px 1px 1px rgba(60,64,67,.15);
+  box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.3),
+    0 1px 1px 1px rgba(60, 64, 67, 0.15);
   padding: 10px;
   /* margin: 0 auto 20px; */
   text-align: center;
@@ -115,7 +117,7 @@ body {
 a:hover {
   text-decoration: none;
 }
-.button{
+.button {
   font-weight: bold;
   -webkit-appearance: none;
   /* background: #e8f0fe; */
@@ -132,11 +134,13 @@ a:hover {
   text-decoration: none;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  -webkit-transition: background-color .2s,border .2s,-webkit-box-shadow .2s;
-  transition: background-color .2s,border .2s,-webkit-box-shadow .2s;
-  -o-transition: background-color .2s,border .2s,box-shadow .2s;
-  transition: background-color .2s,border .2s,box-shadow .2s;
-  transition: background-color .2s,border .2s,box-shadow .2s,-webkit-box-shadow .2s;
+  -webkit-transition: background-color 0.2s, border 0.2s,
+    -webkit-box-shadow 0.2s;
+  transition: background-color 0.2s, border 0.2s, -webkit-box-shadow 0.2s;
+  -o-transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s,
+    -webkit-box-shadow 0.2s;
   vertical-align: middle;
   white-space: nowrap;
   -webkit-border-radius: 4px;
@@ -144,12 +148,14 @@ a:hover {
   /* border: 1px solid #dadce0; */
   -webkit-box-shadow: none;
   box-shadow: none;
-  font: 500 14px/36px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  font: 500 14px/36px Google Sans, Noto Sans, Noto Sans JP, Noto Sans KR,
+    Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali,
+    sans-serif;
   line-height: 34px;
   padding: 0 24px;
 }
 
-.button:hover{
+.button:hover {
   color: #1a73e8;
   background: #e8f0fe;
 }
@@ -157,11 +163,13 @@ a:hover {
   background: #e8f0fe;
   /* border: 1px solid #e8f0fe; */
 }
-.button:active{
+.button:active {
   text-decoration: none;
   background: #e8f0fe;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
-  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
 }
 #cover-text {
   position: relative;
@@ -268,7 +276,8 @@ a:hover {
   /* height: 30%; */
   position: relative;
   align-self: center;
-  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
   /* border: #818181 solid 1px; */
   padding: 0%;
   border-radius: 20px;
@@ -277,9 +286,9 @@ a:hover {
 .portfolio-content h5 {
   padding: 4% 0 0 0;
 }
-.portfolio-content p{
-  color: #818181!important;
-  font-size: 14px!important;
+.portfolio-content p {
+  color: #818181 !important;
+  font-size: 14px !important;
 }
 /* 
 .portfolio-content a {
@@ -567,6 +576,7 @@ a:hover {
     padding: 30px 0 35px 0;
   } */
   .website-img {
+    object-fit: contain;
     width: 150px;
     height: 100px;
   }
